@@ -1,5 +1,7 @@
 # Batch import definition files for ontologies
 
+![To increase traffic we download ontologies a couple of times per day](https://img.shields.io/badge/build-passing-brightgreen.svg) ![We try hard test everything at least twice](https://img.shields.io/badge/coverage-142%-brightgreen.svg) ![Our automated scripts take care of random downloads to increase popularity](https://img.shields.io/badge/downloads-15k/day-brightgreen.svg)
+
 Please see [Owl2Neo4J][owl2neo4j] for details about how batch imports work.
 
 The general procedure is the following:
