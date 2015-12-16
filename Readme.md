@@ -30,11 +30,11 @@ Date: December 16, 2015
 Ontology     | Automatically downloadable | Importable
 ------------ | -------------------------- | ----------
 BTO          | ✓                          | ✓
-CHEBI        | ✓                          |
+CHEBI        | ✓                          | ✓
 CL           | ✓                          | ✓
 EFO          | ✓                          | ✓
 FMA          | ✓                          | ✓
-GO           | ✓                          |
+GO           | ✓                          | ✓
 MA           | ✓                          | ✓
 NCBITAXON    | ✓                          |
 NCIT         | ✓                          |
@@ -66,10 +66,10 @@ BTO          | ✓                          | ✓
 CCO          |                            |
 CCON         |                            |
 CCONT        |                            |
-CHEBI        | ✓                          |
+CHEBI        | ✓                          | ✓
 CHMO         | ✓                          | ✓
 CL           | ✓                          | ✓
-CMO          |                            |
+CMO          | ✓                          |
 CPO          |                            |
 CRISP        |                            |
 CSEO         |                            |
@@ -78,12 +78,12 @@ CSSO         |                            |
 DOID         |                            |
 DRON         |                            |
 E            |                            |
-EDAM         |                            |
+EDAM         | ✓                          |
 EFO          | ✓                          | ✓
 EHDA         | ✓                          |
 ENVO         | ✓                          | ✓
 FBCV         |                            |
-FIX          |                            |
+FIX          | ✓                          |
 FMA          | ✓                          | ✓
 FYPO         |                            |
 GALEN        |                            |
@@ -92,16 +92,16 @@ GO           | ✓                          |
 GO-EXT       |                            |
 HL           |                            |
 ICF          |                            |
-IDO          |                            |
+IDO          | ✓                          |
 IDODEN       |                            |
-IEV          |                            |
+IEV          | ✓                          |
 JERM         |                            |
 MCCV         | ✓                          | ✓
 MDR          |                            |
 MEDDRA       |                            |
 MESH         |                            |
-MI           |                            |
-MMO          |                            |
+MI           | ✓                          |
+MMO          | ✓                          |
 MPATH        |                            |
 MS           | ✓                          | ✓
 MSH          |                            |
@@ -111,29 +111,29 @@ NEMO         |                            |
 NEWT         |                            |
 NIF          |                            |
 NIFSTD       |                            |
-NMR          |                            |
+NMR          | ✓                          |
 NPO          |                            |
-OBI          |                            |
+OBI          | ✓                          | ✓
 ODGI         |                            |
-PATO         | ✓                          |
-PO           |                            |
+PATO         | ✓                          | ✓
+PO           | ✓                          | ✓
 PPIO         |                            |
-PR           |                            |
-PROPREO      |                            |
+PR           | ✓                          |
+PROPREO      | ✓                          |
 PSDS         |                            |
 PSI          |                            |
 PTO          |                            |
-PW           |                            |
+PW           | ✓                          |
 RCD          |                            |
 ROLEO        |                            |
-SBO          |                            |
-SEP          |                            |
-SIO          |                            |
+SBO          | ✓                          |
+SEP          | ✓                          |
+SIO          | ✓                          |
 SNOMEDCT     |                            |
 SYN          |                            |
 UNITSONT     |                            |
 UO           | ✓                          | ✓
-XCO          |                            |
+XCO          | ✓                          |
 XEO          |                            |
 
 [owl2neo4j]: https://github.com/flekschas/owl2neo4j/wiki/Batch-Imports

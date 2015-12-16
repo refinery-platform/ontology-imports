@@ -36,6 +36,16 @@
             "a": "CL"
         },
         {
+            "o": "./cmo.owl",
+            "n": "Clinical measurement ontology",
+            "a": "CMO"
+        },
+        {
+            "o": "./edam.owl",
+            "n": "EMBRACE Data and Methods",
+            "a": "EDAM"
+        },
+        {
             "o": "./efo.owl",
             "n": "Experimental Factor Ontology",
             "a": "EFO"
@@ -51,9 +61,9 @@
             "a": "ENVO"
         },
         {
-            "o": "./ero.owl",
-            "n": "Eagle-I Resource Ontology",
-            "a": "ERO"
+            "o": "./fix.owl",
+            "n": "Physico-Chemical Methods and Properties",
+            "a": "FIX"
         },
         {
             "o": "./fma.owl",
@@ -61,9 +71,34 @@
             "a": "FMA"
         },
         {
+            "o": "./go.owl",
+            "n": "Gene Ontology",
+            "a": "GO"
+        },
+        {
+            "o": "./ido.owl",
+            "n": "Infectious Disease Ontology",
+            "a": "IDO"
+        },
+        {
+            "o": "./iev.owl",
+            "n": "Event (INOH Pathway Ontology)",
+            "a": "IEV"
+        },
+        {
             "o": "./ma.owl",
             "n": "Mouse Adult Gross Anatomy",
             "a": "MA"
+        },
+        {
+            "o": "./mi.owl",
+            "n": "Protein-Protein Interaction",
+            "a": "MI"
+        },
+        {
+            "o": "./mmo.owl",
+            "n": "Measurement Method Ontology",
+            "a": "MMO"
         },
         {
             "o": "./mccv.owl",
@@ -76,14 +111,64 @@
             "a": "MS"
         },
         {
+            "o": "./nmr.owl",
+            "n": "NMR-Instrument Specific Component of Metabolomics Investigations",
+            "a": "NMR"
+        },
+        {
+            "o": "./obi.owl",
+            "n": "Ontology for Biomedical Investigations",
+            "a": "OBI"
+        },
+        {
+            "o": "./pato.owl",
+            "n": "Phenotypic Quality",
+            "a": "PATO"
+        },
+        {
             "o": "./po.owl",
             "n": "Plant Ontology",
             "a": "PO"
         },
         {
+            "o": "./pr.owl",
+            "n": "Protein Ontology",
+            "a": "PR"
+        },
+        {
+            "o": "./propreo.owl",
+            "n": "Proteomics Data and Process Provenance",
+            "a": "PROPREO"
+        },
+        {
+            "o": "./pw.owl",
+            "n": "Pathway Ontology",
+            "a": "PW"
+        },
+        {
+            "o": "./sbo.owl",
+            "n": "Systems Biology",
+            "a": "SBO"
+        },
+        {
+            "o": "./sep.owl",
+            "n": "Sample Processing and Separation Techniques",
+            "a": "SEP"
+        },
+        {
+            "o": "./sio.owl",
+            "n": "Semanticscience Integrated Ontology",
+            "a": "SIO"
+        },
+        {
             "o": "./uo.owl",
             "n": "Unit Ontology",
             "a": "UO"
+        },
+        {
+            "o": "./xco.owl",
+            "n": "Experimental Condition Ontology",
+            "a": "XCO"
         }
     ]
 }
