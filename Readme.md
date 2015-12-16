@@ -1,6 +1,27 @@
 # Batch import definition files for ontologies
 
-Please see [Owl2Neo4J][owl2neo4j] about how batch imports work.
+Please see [Owl2Neo4J][owl2neo4j] for details about how batch imports work.
+
+The general procedure is the following:
+
+1. Download or clone this repo:
+
+   ```
+   git clone https://github.com/refinery-platform/ontology-imports
+   cd ontology-imports
+   ```
+
+2. Download ontologies using the helper methods:
+
+   ```
+   ./download-stemcellcommons.sh
+   ```
+
+3. Go to Refinery and import ontologies.
+
+   ```
+   ./manage.py import-ontologies -b ./import-stemcellcommons.json
+   ```
 
 ### Stem Cell Commons
 
@@ -115,4 +136,4 @@ UO           | ✓                          | ✓
 XCO          |                            |
 XEO          |                            |
 
-[owl2neo4j]: https://github.com/flekschas/owl2neo4j
+[owl2neo4j]: https://github.com/flekschas/owl2neo4j/wiki/Batch-Imports
