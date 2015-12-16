@@ -1,0 +1,89 @@
+{
+    "ontologies": [
+        {
+            "o": "./apo.owl",
+            "n": "BioAssay Ontology",
+            "a": "APO"
+        },
+        {
+            "o": "./bao.owl",
+            "n": "BioAssay Ontology",
+            "a": "BAO"
+        },
+        {
+            "o": "./biopax.owl",
+            "n": "Biological Pathways Exchange",
+            "a": "BIOPAX"
+        },
+        {
+            "o": "./birnlex.owl",
+            "n": "Biomedical Informatics Research Network Project Lexicon",
+            "a": "BIRNLEX"
+        },
+        {
+            "o": "./bto.owl",
+            "n": "BRENDA Tissue and Enzyme Source Ontology",
+            "a": "BTO"
+        },
+        {
+            "o": "./chmo.owl",
+            "n": "Chemical Methods Ontology",
+            "a": "CHMO"
+        },
+        {
+            "o": "./cl.owl",
+            "n": "Cell Ontology",
+            "a": "CL"
+        },
+        {
+            "o": "./efo.owl",
+            "n": "Experimental Factor Ontology",
+            "a": "EFO"
+        },
+        {
+            "o": "./ehda.owl",
+            "n": "Human Developmental Anatomy (Timed Version)",
+            "a": "EHDA"
+        },
+        {
+            "o": "./envo.owl",
+            "n": "Environment Ontology",
+            "a": "ENVO"
+        },
+        {
+            "o": "./ero.owl",
+            "n": "Eagle-I Resource Ontology",
+            "a": "ERO"
+        },
+        {
+            "o": "./fma.owl",
+            "n": "Foundational Model of Anatomy",
+            "a": "FMA"
+        },
+        {
+            "o": "./ma.owl",
+            "n": "Mouse Adult Gross Anatomy",
+            "a": "MA"
+        },
+        {
+            "o": "./mccv.owl",
+            "n": "Microbial Culture Collection Vocabulary",
+            "a": "MCCV"
+        },
+        {
+            "o": "./ms.owl",
+            "n": "Mass Spectrometry Ontology",
+            "a": "MS"
+        },
+        {
+            "o": "./po.owl",
+            "n": "Plant Ontology",
+            "a": "PO"
+        },
+        {
+            "o": "./uo.owl",
+            "n": "Unit Ontology",
+            "a": "UO"
+        }
+    ]
+}

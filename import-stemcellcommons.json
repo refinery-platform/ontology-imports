@@ -1,0 +1,54 @@
+{
+    "ontologies": [
+        {
+            "o": "./bto.owl",
+            "n": "BRENDA Tissue and Enzyme Source Ontology",
+            "a": "BTO"
+        },
+        {
+            "o": "./chebi.owl",
+            "n": "Chemical Entities of Biological Interest",
+            "a": "CHEBI"
+        },
+        {
+            "o": "./cl.owl",
+            "n": "Cell Ontology",
+            "a": "CL"
+        },
+        {
+            "o": "./efo.owl",
+            "n": "Experimental Factor Ontology",
+            "a": "EFO"
+        },
+        {
+            "o": "./fma.owl",
+            "n": "Foundational Model of Anatomy",
+            "a": "FMA"
+        },
+        {
+            "o": "./go.owl",
+            "n": "Gene Ontology",
+            "a": "GO"
+        },
+        {
+            "o": "./ma.owl",
+            "n": "Mouse Adult Gross Anatomy",
+            "a": "MA"
+        },
+        {
+            "o": "./obi.owl",
+            "n": "Ontology for Biomedical Investigations",
+            "a": "OBI"
+        },
+        {
+            "o": "./pato.owl",
+            "n": "Phenotypic Quality",
+            "a": "PATO"
+        },
+        {
+            "o": "./uo.owl",
+            "n": "Unit Ontology",
+            "a": "UO"
+        }
+    ]
+}
