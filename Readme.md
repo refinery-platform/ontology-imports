@@ -115,4 +115,4 @@ UO           | ✓                          | ✓
 XCO          |                            |
 XEO          |                            |
 
-owl2neo4j: https://github.com/flekschas/owl2neo4j
+[owl2neo4j]: https://github.com/flekschas/owl2neo4j
