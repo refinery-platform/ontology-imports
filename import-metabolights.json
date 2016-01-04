@@ -71,6 +71,11 @@
             "a": "FMA"
         },
         {
+            "o": "./fbcv.owl",
+            "n": "FlyBase Controlled Vocabulary",
+            "a": "FBcv"
+        },
+        {
             "o": "./go.owl",
             "n": "Gene Ontology",
             "a": "GO"

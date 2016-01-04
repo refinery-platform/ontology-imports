@@ -84,7 +84,7 @@ EDAM         | ✓                          |
 EFO          | ✓                          | ✓
 EHDA         | ✓                          |
 ENVO         | ✓                          | ✓
-FBCV         |                            |
+FBCV         | ✓                          |
 FIX          | ✓                          |
 FMA          | ✓                          | ✓
 FYPO         |                            |

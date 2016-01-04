@@ -21,6 +21,7 @@
 [ -f ./efo.owl ] || curl -L -O http://www.ebi.ac.uk/efo/efo.owl
 [ -f ./ehda.owl ] || curl -L -O http://purl.obolibrary.org/obo/ehda.owl
 [ -f ./envo.owl ] || curl -L -O http://purl.obolibrary.org/obo/envo.owl
+[ -f ./fbcv.owl ] || curl -L -O http://purl.obolibrary.org/obo/fbcv.owl
 [ -f ./fix.owl ] || curl -L -O http://purl.obolibrary.org/obo/fix.owl
 [ -f ./fma.owl ] || curl -L -O http://purl.obolibrary.org/obo/fma.owl
 [ -f ./go.owl ] || curl -L -O http://purl.obolibrary.org/obo/go.owl
