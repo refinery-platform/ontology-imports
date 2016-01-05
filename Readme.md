@@ -79,7 +79,6 @@ CSP          |                            |
 CSSO         |                            |
 DOID         |                            |
 DRON         |                            |
-E            |                            |
 EDAM         | ✓                          |
 EFO          | ✓                          | ✓
 EHDA         | ✓                          |
