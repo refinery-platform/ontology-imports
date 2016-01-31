@@ -12,7 +12,7 @@
 [ -f ./go.owl ] || curl -L -O http://purl.obolibrary.org/obo/go.owl
 [ -f ./fma.owl ] || curl -L -O http://purl.obolibrary.org/obo/fma.owl
 [ -f ./ma.owl ] || curl -L -O http://purl.obolibrary.org/obo/ma.owl
-[ -f ./ncit.owl ] || (curl -L http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/archive/15.11e_Release/Thesaurus_15.11e.OWL.zip | tar -xf- -C . && mv ./Thesaurus.owl ./ncit.owl)
+[ -f ./ncit.owl ] || (curl -L http://evs.nci.nih.gov/ftp1/NCI_Thesaurus/archive/15.12d_Release/Thesaurus_15.12d.OWL.zip | tar -xf- -C . && mv ./Thesaurus.owl ./ncit.owl)
 [ -f ./ncbitaxon.owl ] || curl -L -O http://purl.obolibrary.org/obo/ncbitaxon.owl
 [ -f ./obi.owl ] || curl -L -O http://purl.obolibrary.org/obo/obi.owl
 [ -f ./pato.owl ] || curl -L -O http://purl.obolibrary.org/obo/pato.owl

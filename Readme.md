@@ -27,7 +27,7 @@ The general procedure is the following:
 
 ### Stem Cell Commons
 
-Date: December 16, 2015
+Date: January 30, 2016
 
 Ontology     | Automatically downloadable | Importable
 ------------ | -------------------------- | ----------
@@ -39,7 +39,7 @@ FMA          | ✓                          | ✓
 GO           | ✓                          | ✓
 MA           | ✓                          | ✓
 NCBITAXON    | ✓                          |
-NCIT         | ✓                          |
+NCIT         | ✓                          | ✓
 OBI          | ✓                          | ✓
 PATO         | ✓                          | ✓
 UO           | ✓                          | ✓
