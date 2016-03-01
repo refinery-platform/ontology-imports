@@ -22,28 +22,36 @@ The general procedure is the following:
 3. Go to Refinery and import ontologies.
 
    ```
-   ./manage.py import-ontologies -b ./import-stemcellcommons.json
+   ./manage.py import-ontology -b ./import-stemcellcommons.json
    ```
+
+> **Pro-Tip:** If you are developing Refinery, step 1 and 2 should ideally be executed in your _transfer directory_ on your host VM and step 3 should be triggered from within the VM. Make sure to adjust the path to the JSON file accordingly.
 
 ### Stem Cell Commons
 
-Date: January 30, 2016
+Date: March 1, 2016
 
-Ontology     | Automatically downloadable | Importable
------------- | -------------------------- | ----------
-BTO          | ✓                          | ✓
-CHEBI        | ✓                          | ✓
-CL           | ✓                          | ✓
-EFO          | ✓                          | ✓
-FMA          | ✓                          | ✓
-GO           | ✓                          | ✓
-MA           | ✓                          | ✓
-NCBITAXON    | ✓                          |
-NCIT         | ✓                          | ✓
-OBI          | ✓                          | ✓
-PATO         | ✓                          | ✓
-UO           | ✓                          | ✓
+Ontology     | Downloadable | Importable | Memory (*)
+------------ | ------------ | ---------- | ----------
+BTO          | ✓            | ✓          | ☕
+CHEBI        | ✓            | ✓          | ☕☕☕☕
+CL           | ✓            | ✓          | ☕
+EFO          | ✓            | ✓          | ☕☕
+FMA          | ✓            | ✓          | ☕☕
+GO           | ✓            | ✓          | ☕☕☕
+MA           | ✓            | ✓          | ☕
+NCBITAXON    | ✓            |            | ☕☕☕☕☕
+NCIT         | ✓            | ✓          | ☕☕☕
+OBI          | ✓            | ✓          | ☕
+PATO         | ✓            | ✓          | ☕
+UO           | ✓            | ✓          | ☕
 
+*) The number of coffee mugs directly correlates with the import time and amount
+of memory your system needs. As an indicator: ontologies marked as importable
+were imported on a MacBook Air with 8 GB Ram.
+
+**Note:** Importing on the development VM might require even more memory. (And
+might make your drink even more coffee, so please watch your heart rate.)
 
 ### MetaboLights
 
