@@ -22,7 +22,7 @@ The general procedure is the following:
 3. Go to Refinery and import ontologies.
 
    ```
-   ./manage.py import-ontology -b ./import-stemcellcommons.json
+   ./manage.py import_ontology -b ./import-stemcellcommons.json
    ```
 
 > **Pro-Tip:** If you are developing Refinery, step 1 and 2 should ideally be executed in your _transfer directory_ on your host VM and step 3 should be triggered from within the VM. Make sure to adjust the path to the JSON file accordingly.
