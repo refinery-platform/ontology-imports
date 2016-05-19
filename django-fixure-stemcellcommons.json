@@ -1,7 +1,6 @@
 [
     {
         "model": "core.Ontology",
-        "pk": "None",
         "fields": {
             "name": "BRENDA Tissue and Enzyme Source Ontology",
             "acronym": "BTO",
@@ -13,7 +12,6 @@
     },
     {
         "model": "core.Ontology",
-        "pk": "None",
         "fields": {
             "name": "Chemical Entities of Biological Interest",
             "acronym": "CHEBI",
@@ -25,7 +23,6 @@
     },
     {
         "model": "core.Ontology",
-        "pk": "None",
         "fields": {
             "name": "Cell Ontology",
             "acronym": "CL",
@@ -37,7 +34,6 @@
     },
     {
         "model": "core.Ontology",
-        "pk": "None",
         "fields": {
             "name": "Experimental Factor Ontology",
             "acronym": "EFO",
@@ -49,7 +45,6 @@
     },
     {
         "model": "core.Ontology",
-        "pk": "None",
         "fields": {
             "name": "Foundational Model of Anatomy",
             "acronym": "FMA",
@@ -61,7 +56,6 @@
     },
     {
         "model": "core.Ontology",
-        "pk": "None",
         "fields": {
             "name": "Gene Ontology",
             "acronym": "GO",
@@ -73,7 +67,6 @@
     },
     {
         "model": "core.Ontology",
-        "pk": "None",
         "fields": {
             "name": "Mouse Adult Gross Anatomy",
             "acronym": "MA",
@@ -85,7 +78,6 @@
     },
     {
         "model": "core.Ontology",
-        "pk": "None",
         "fields": {
             "name": "National Cancer Institute Thesaurus",
             "acronym": "NCIT",
@@ -97,7 +89,6 @@
     },
     {
         "model": "core.Ontology",
-        "pk": "None",
         "fields": {
             "name": "Ontology for Biomedical Investigations",
             "acronym": "OBI",
@@ -109,7 +100,6 @@
     },
     {
         "model": "core.Ontology",
-        "pk": "None",
         "fields": {
             "name": "Phenotypic Quality",
             "acronym": "PATO",
@@ -121,7 +111,6 @@
     },
     {
         "model": "core.Ontology",
-        "pk": "None",
         "fields": {
             "name": "Unit Ontology",
             "acronym": "UO",
