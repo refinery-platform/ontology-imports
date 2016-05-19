@@ -36,6 +36,11 @@
             "a": "MA"
         },
         {
+            "o": "./ncit.owl",
+            "n": "National Cancer Institute Thesaurus",
+            "a": "NCIT"
+        },
+        {
             "o": "./obi.owl",
             "n": "Ontology for Biomedical Investigations",
             "a": "OBI"
