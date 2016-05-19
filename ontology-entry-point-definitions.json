@@ -1,0 +1,173 @@
+{
+    "bto": [
+        {
+            "name": "adult stem cell",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0002666"
+        }, {
+            "name": "cardiovascular system",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0000088"
+        }, {
+            "name": "connective tissue",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0000421"
+        }, {
+            "name": "embryonic structure",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0000174"
+        }, {
+            "name": "gland",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0000522"
+        }, {
+            "name": "head",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0000282"
+        }, {
+            "name": "hematopoietic system",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0000570"
+        }, {
+            "name": "immune system",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0005810"
+        }, {
+            "name": "integument",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0000634"
+        }, {
+            "name": "limb",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0001492"
+        }, {
+            "name": "muscular system",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0001485"
+        }, {
+            "name": "nervous system",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0001484"
+        }, {
+            "name": "respiratory system",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0000203"
+        }, {
+            "name": "sense organ",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0000202"
+        }, {
+            "name": "skeletal system",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0001486"
+        }, {
+            "name": "soft body part",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0001262"
+        }, {
+            "name": "trunk",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0001493"
+        }, {
+            "name": "urogenital system",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0003091"
+        }, {
+            "name": "viscus",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0001491"
+        }
+    ],
+    "chebi": [
+        {
+            "name": "chemical compound",
+            "uri": "http://purl.obolibrary.org/obo/CHEBI_37577"
+        }
+    ],
+    "cl": [
+        {
+            "name": "native cell",
+            "uri": "http://purl.obolibrary.org/obo/CL_0000003"
+        }
+    ],
+    "efo": [
+        {
+            "name": "measurement",
+            "uri": "http://www.ebi.ac.uk/efo/EFO_0001444"
+        }, {
+            "name": "protocol",
+            "uri": "http://purl.obolibrary.org/obo/OBI_0000272"
+        }, {
+            "name": "cell line",
+            "uri": "http://www.ebi.ac.uk/efo/EFO_0000322"
+        }, {
+            "name": "cell type",
+            "uri": "http://www.ebi.ac.uk/efo/EFO_0000324"
+        }, {
+            "name": "organism",
+            "uri": "http://purl.obolibrary.org/obo/OBI_0100026"
+        }, {
+            "name": "animal component",
+            "uri": "http://www.ebi.ac.uk/efo/EFO_0000787"
+        }, {
+            "name": "disease",
+            "uri": "http://www.ebi.ac.uk/efo/EFO_0000408"
+        }, {
+            "name": "cell property",
+            "uri": "http://www.ebi.ac.uk/efo/EFO_0000323"
+        }
+    ],
+    "fma": [
+        {
+            "name": "nucleated cell",
+            "uri": "http://purl.org/sig/ont/fma/fma67513"
+        }, {
+            "name": "organ",
+            "uri": "http://purl.org/sig/ont/fma/fma67498"
+        }, {
+            "name": "organ system",
+            "uri": "http://purl.org/sig/ont/fma/fma7149"
+        }
+    ],
+    "go": [
+        {
+            "name": "biological process",
+            "uri": "http://purl.obolibrary.org/obo/GO_0008150"
+        }, {
+            "name": "cellular component",
+            "uri": "http://purl.obolibrary.org/obo/GO_0005575"
+        }, {
+            "name": "molecular function",
+            "uri": "http://purl.obolibrary.org/obo/GO_0003674"
+        }
+    ],
+    "ma": [
+        {
+            "name": "anatomic region",
+            "uri": "http://purl.obolibrary.org/obo/MA_0002433"
+        }, {
+            "name": "organ",
+            "uri": "http://purl.obolibrary.org/obo/MA_0003001"
+        }, {
+            "name": "organ system",
+            "uri": "http://purl.obolibrary.org/obo/MA_0000003"
+        }, {
+            "name": "tissue",
+            "uri": "http://purl.obolibrary.org/obo/MA_0003002"
+        }
+    ],
+    "ncbitaxon": [
+        {
+            "name": "vertebrata",
+            "uri": "http://purl.bioontology.org/ontology/NCBITAXON/7742"
+        }
+    ],
+    "ncit": [
+        {
+            "name": "neoplasm",
+            "uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3262"
+        }, {
+            "name": "vertebrata",
+            "uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14282"
+        }
+    ],
+    "obi": [
+        {
+            "name": "assay",
+            "uri": "http://purl.obolibrary.org/obo/OBI_0000070"
+        }
+    ],
+    "pato": [
+        {
+            "name": "physical object quality",
+            "uri": "http://purl.obolibrary.org/obo/PATO_0001241"
+        }
+    ],
+    "uo": [
+        {
+            "name": "unit",
+            "uri": "http://purl.obolibrary.org/obo/UO_0000000"
+        }
+    ]
+}
