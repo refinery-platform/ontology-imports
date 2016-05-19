@@ -1,0 +1,112 @@
+[
+    {
+        "model": "core.Ontology",
+        "pk": "None",
+        "fields": {
+            "name": "BRENDA Tissue and Enzyme Source Ontology",
+            "acronym": "BTO",
+            "uri": "http://purl.obolibrary.org/obo/bto.owl",
+            "version": "2.3.1"
+        }
+    },
+    {
+        "model": "core.Ontology",
+        "pk": "None",
+        "fields": {
+            "name": "Chemical Entities of Biological Interest",
+            "acronym": "CHEBI",
+            "uri": "http://purl.obolibrary.org/obo/chebi.owl",
+            "version": "2.3.1"
+        }
+    },
+    {
+        "model": "core.Ontology",
+        "pk": "None",
+        "fields": {
+            "name": "Cell Ontology",
+            "acronym": "CL",
+            "uri": "http://purl.obolibrary.org/obo/cl.owl",
+            "version": "2.3.1"
+        }
+    },
+    {
+        "model": "core.Ontology",
+        "pk": "None",
+        "fields": {
+            "name": "Experimental Factor Ontology",
+            "acronym": "EFO",
+            "uri": "http://www.ebi.ac.uk/efo/efo.owl",
+            "version": "2.3.1"
+        }
+    },
+    {
+        "model": "core.Ontology",
+        "pk": "None",
+        "fields": {
+            "name": "Foundational Model of Anatomy",
+            "acronym": "FMA",
+            "uri": "http://purl.obolibrary.org/obo/fma.owl",
+            "version": "2.3.1"
+        }
+    },
+    {
+        "model": "core.Ontology",
+        "pk": "None",
+        "fields": {
+            "name": "Gene Ontology",
+            "acronym": "GO",
+            "uri": "http://purl.obolibrary.org/obo/go.owl",
+            "version": "2.3.1"
+        }
+    },
+    {
+        "model": "core.Ontology",
+        "pk": "None",
+        "fields": {
+            "name": "Mouse Adult Gross Anatomy",
+            "acronym": "MA",
+            "uri": "http://purl.obolibrary.org/obo/ma.owl",
+            "version": "2.3.1"
+        }
+    },
+    {
+        "model": "core.Ontology",
+        "pk": "None",
+        "fields": {
+            "name": "National Cancer Institute Thesaurus",
+            "acronym": "NCIT",
+            "uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+            "version": "2.3.1"
+        }
+    },
+    {
+        "model": "core.Ontology",
+        "pk": "None",
+        "fields": {
+            "name": "Ontology for Biomedical Investigations",
+            "acronym": "OBI",
+            "uri": "http://purl.obolibrary.org/obo/obi.owl",
+            "version": "2.3.1"
+        }
+    },
+    {
+        "model": "core.Ontology",
+        "pk": "None",
+        "fields": {
+            "name": "Phenotypic Quality",
+            "acronym": "PATO",
+            "uri": "http://purl.obolibrary.org/obo/pato.owl",
+            "version": "2.3.1"
+        }
+    },
+    {
+        "model": "core.Ontology",
+        "pk": "None",
+        "fields": {
+            "name": "Unit Ontology",
+            "acronym": "UO",
+            "uri": "http://purl.obolibrary.org/obo/uo.owl",
+            "version": "2.3.1"
+        }
+    }
+]
