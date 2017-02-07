@@ -1,14 +1,54 @@
 {
     "ontologies": [
         {
+            "o": "./acgt-mo.owl",
+            "n": "Cancer Research and Management ACGT Master Ontology",
+            "a": "ACGT-MO"
+        },
+        {
+            "o": "./ado.owl",
+            "n": "Alzheimer's Disease Ontology",
+            "a": "ADO"
+        },
+        {
+            "o": "./adw.owl",
+            "n": "Animal Natural History and Life History Ontology",
+            "a": "ADW"
+        },
+        {
+            "o": "./amino-acid.owl",
+            "n": "Amino Acid Ontology",
+            "a": "amino-acid"
+        },
+        {
             "o": "./apo.owl",
-            "n": "BioAssay Ontology",
+            "n": "Ascomycete Phenotype Ontology",
             "a": "APO"
+        },
+        {
+            "o": "./aura.owl",
+            "n": "AURA Automated User-Centered Reasoning and Acquisition System",
+            "a": "aura"
         },
         {
             "o": "./bao.owl",
             "n": "BioAssay Ontology",
             "a": "BAO"
+        },
+        {
+            "o": "./bco.owl",
+            "n": "Biological Collections Ontology",
+            "a": "bco"
+        },
+        {
+            "o": "./bfo.owl",
+            "n": "Basic Formal Ontology",
+            "a": "bfo"
+        },
+        {
+            "o": "./biomodels.owl",
+            "n": "BioModels Ontology",
+            "a": "biomodels"
         },
         {
             "o": "./biopax.owl",
@@ -21,9 +61,34 @@
             "a": "BIRNLEX"
         },
         {
+            "o": "./bro.owl",
+            "n": "Biomedical Resource Ontology",
+            "a": "bro"
+        },
+        {
             "o": "./bto.owl",
             "n": "BRENDA Tissue and Enzyme Source Ontology",
             "a": "BTO"
+        },
+        {
+            "o": "./cco.owl",
+            "n": "Cell Cycle Ontology",
+            "a": "cco"
+        },
+        {
+            "o": "./ccon.owl",
+            "n": "Cerrado Concepts and Plant Community Dynamics",
+            "a": "ccon"
+        },
+        {
+            "o": "./ccont.owl",
+            "n": "Cell Culture Ontology",
+            "a": "ccont"
+        },
+        {
+            "o": "./chebi.owl",
+            "n": "Chemical Entities of Biological Interest Ontology",
+            "a": "chebi"
         },
         {
             "o": "./chmo.owl",
@@ -39,6 +104,26 @@
             "o": "./cmo.owl",
             "n": "Clinical measurement ontology",
             "a": "CMO"
+        },
+        {
+            "o": "./cseo.owl",
+            "n": "Cigarette Smoke Exposure Ontology",
+            "a": "cseo"
+        },
+        {
+            "o": "./csso.owl",
+            "n": "Clinical Signs and Symptoms Ontology",
+            "a": "csso"
+        },
+        {
+            "o": "./doid.owl",
+            "n": "Human Disease Ontology",
+            "a": "doid"
+        },
+        {
+            "o": "./dron.owl",
+            "n": "The Drug Ontology",
+            "a": "dron"
         },
         {
             "o": "./edam.owl",
@@ -61,6 +146,11 @@
             "a": "ENVO"
         },
         {
+            "o": "./fbcv.owl",
+            "n": "FlyBase Controlled Vocabulary",
+            "a": "fbcv"
+        },
+        {
             "o": "./fix.owl",
             "n": "Physico-Chemical Methods and Properties",
             "a": "FIX"
@@ -71,9 +161,19 @@
             "a": "FMA"
         },
         {
-            "o": "./fbcv.owl",
-            "n": "FlyBase Controlled Vocabulary",
-            "a": "FBcv"
+            "o": "./fypo.owl",
+            "n": "Fission Yeast Phenotype Ontology",
+            "a": "fypo"
+        },
+        {
+            "o": "./galen.owl",
+            "n": "Galen Ontology",
+            "a": "galen"
+        },
+        {
+            "o": "./gexo.owl",
+            "n": "Gene Expression Ontology",
+            "a": "gexo"
         },
         {
             "o": "./go.owl",
@@ -81,9 +181,19 @@
             "a": "GO"
         },
         {
+            "o": "./icf.owl",
+            "n": "FlyBase Controlled Vocabulary",
+            "a": "icf"
+        },
+        {
             "o": "./ido.owl",
             "n": "Infectious Disease Ontology",
             "a": "IDO"
+        },
+        {
+            "o": "./idoden.owl",
+            "n": "International Classification of Functioning, Disability and Health",
+            "a": "idoden"
         },
         {
             "o": "./iev.owl",
@@ -91,9 +201,19 @@
             "a": "IEV"
         },
         {
+            "o": "./jerm.owl",
+            "n": "SysMO JERM Ontology of Systems Biology for Micro-Organisms",
+            "a": "jerm"
+        },
+        {
             "o": "./ma.owl",
             "n": "Mouse Adult Gross Anatomy",
             "a": "MA"
+        },
+        {
+            "o": "./mccv.owl",
+            "n": "Microbial Culture Collection Vocabulary",
+            "a": "mccv"
         },
         {
             "o": "./mi.owl",
@@ -106,9 +226,9 @@
             "a": "MMO"
         },
         {
-            "o": "./mccv.owl",
-            "n": "Microbial Culture Collection Vocabulary",
-            "a": "MCCV"
+            "o": "./mpath.owl",
+            "n": "Mouse Pathology Ontology",
+            "a": "mpath"
         },
         {
             "o": "./ms.owl",
@@ -116,9 +236,29 @@
             "a": "MS"
         },
         {
+            "o": "./ncit.owl",
+            "n": "National Cancer Institute Thesaurus",
+            "a": "ncit"
+        },
+        {
+            "o": "./nemo.owl",
+            "n": "Neural ElectroMagnetic Ontology",
+            "a": "nemo"
+        },
+        {
+            "o": "./nifstd.owl",
+            "n": "Neuroscience Information Framework Standard Ontology",
+            "a": "nifstd"
+        },
+        {
             "o": "./nmr.owl",
             "n": "NMR-Instrument Specific Component of Metabolomics Investigations",
             "a": "NMR"
+        },
+        {
+            "o": "./npo.owl",
+            "n": "NanoParticle Ontology",
+            "a": "npo"
         },
         {
             "o": "./obi.owl",
@@ -146,9 +286,19 @@
             "a": "PROPREO"
         },
         {
+            "o": "./pto.owl",
+            "n": "Plant Trait Ontology",
+            "a": "pto"
+        },
+        {
             "o": "./pw.owl",
             "n": "Pathway Ontology",
             "a": "PW"
+        },
+        {
+            "o": "./roleo.owl",
+            "n": "Role Ontology",
+            "a": "roleo"
         },
         {
             "o": "./sbo.owl",
@@ -164,6 +314,16 @@
             "o": "./sio.owl",
             "n": "Semanticscience Integrated Ontology",
             "a": "SIO"
+        },
+        {
+            "o": "./syn.owl",
+            "n": "Sage Bionetworks Synapse Ontology",
+            "a": "syn"
+        },
+        {
+            "o": "./unitsont.owl",
+            "n": "Units Ontology",
+            "a": "unitsont"
         },
         {
             "o": "./uo.owl",
