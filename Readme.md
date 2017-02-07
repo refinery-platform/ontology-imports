@@ -149,7 +149,7 @@ UNITSONT     | ✓            |        |
 UO           | ✓            |        | ✓
 XCO          | ✓            |        |
 XEO          |              | ✗      |
------------- | ------------ | ------ | ----------
-85           | 68           | 7      | 16
+Total:       |              |        |
+**85**       | **68**       | **7**  | **16**
 
 [owl2neo4j]: https://github.com/flekschas/owl2neo4j/wiki/Batch-Imports
