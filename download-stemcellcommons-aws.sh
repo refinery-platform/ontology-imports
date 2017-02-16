@@ -19,7 +19,7 @@ fi
 [ -f ./go.owl ] || curl -L -O http://data.cloud.refinery-platform.org.s3.amazonaws.com/data/stem-cell-commons/ontologies/2015/fma.owl
 [ -f ./fma.owl ] || curl -L -O http://data.cloud.refinery-platform.org.s3.amazonaws.com/data/stem-cell-commons/ontologies/2015/go.owl
 [ -f ./ma.owl ] || curl -L -O http://data.cloud.refinery-platform.org.s3.amazonaws.com/data/stem-cell-commons/ontologies/2015/ma.owl
-[ -f ./ncit.owl ] || curl -L http://data.cloud.refinery-platform.org.s3.amazonaws.com/data/stem-cell-commons/ontologies/2015/ncit.owl
+[ -f ./ncit.owl ] || curl -L -O http://data.cloud.refinery-platform.org.s3.amazonaws.com/data/stem-cell-commons/ontologies/2015/ncit.owl
 [ -f ./ncbitaxon.owl ] || curl -L -O http://data.cloud.refinery-platform.org.s3.amazonaws.com/data/stem-cell-commons/ontologies/2015/ncbitaxon.owl
 [ -f ./obi.owl ] || curl -L -O http://data.cloud.refinery-platform.org.s3.amazonaws.com/data/stem-cell-commons/ontologies/2015/obi.owl
 [ -f ./pato.owl ] || curl -L -O http://data.cloud.refinery-platform.org.s3.amazonaws.com/data/stem-cell-commons/ontologies/2015/pato.owl
