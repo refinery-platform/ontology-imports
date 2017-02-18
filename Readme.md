@@ -61,95 +61,95 @@ might make your drink even more coffee, so please watch your heart rate.)
 could be downloaded but are not available as OWL files, i.e., they are not
 importable and are therefore ignored.
 
-Ontology     | Downloadable | No OWL | Importable | Memory (*)
------------- | ------------ | ------ | ---------- | ----------
-ACGT-MO      | ✓            |        | ✗          |
-ADO          | ✓            |        | ✓          | ☕
-ADW          | ✓            |        | ✓          | ☕
-AMINO-ACID   | ✓            |        | ✓          | ☕
-APO          | ✓            |        | ✓          | ☕
-AURA         | ✓            |        | ✗          |
-BAO          | ✓            |        | ✓          | ☕
-BCO          | ✓            |        |            |
-BFO          | ✓            |        |            |
-BIOMODELS    | ✓            |        |            |
-BioPAX (=BP) | ✓            |        | ✓          |
-BIRNLEX      | ✓            |        | ✓          |
-BRO          | ✓            |        |            |
-BTO          | ✓            |        | ✓          | ☕
-CCO          | ✓            |        |            |
-CCON         | ✓            |        |            |
-CCONT        | ✓            |        |            |
-CHEBI        | ✓            |        | ✓          | ☕☕☕☕
-CHMO         | ✓            |        | ✓          |
-CL           | ✓            |        | ✓          | ☕
-CMO          | ✓            |        |            |
-CPO          |              |        |            |
-CRISP        |              | ✗      |            |
-CSEO         | ✓            |        |            |
-CSP          |              |        |            |
-CSSO         | ✓            |        |            |
-DOID         | ✓            |        |            |
-DRON         | ✓            |        |            |
-EDAM         | ✓            |        |            |
-EFO          | ✓            |        | ✓          |
-EHDA         | ✓            |        |            |
-ENVO         | ✓            |        | ✓          |
-FBCV         | ✓            |        |            |
-FIX          | ✓            |        |            |
-FMA          | ✓            |        | ✓          |
-FYPO         | ✓            |        |            |
-GALEN        | ✓            |        |            |
-GEXO         | ✓            |        |            |
-GO           | ✓            |        |            |
-GO-EXT       |              |        |            |
-HL           |              |        |            |
-ICF          | ✓            |        |            |
-IDO          | ✓            |        |            |
-IDODEN       | ✓            |        |            |
-IEV          | ✓            |        |            |
-JERM         | ✓            |        |            |
-MA           | ✓            |        |            |
-MCCV         | ✓            |        | ✓          |
-MDR          |              |        |            |
-MEDDRA       |              | ✗      |            |
-MESH         | ✓            |        |            |
-MI           | ✓            |        |            |
-MMO          | ✓            |        |            |
-MPATH        | ✓            |        |            |
-MS           | ✓            |        | ✓          |
-MSH          |              |        |            |
-NCBITAXON    | ✓            |        |            |
-NCIT         | ✓            |        |            |
-NEMO         | ✓            |        |            |
-NEWT         |              |        |            |
-NIF          |              |        |            |
-NIFSTD       | ✓            |        |            |
-NMR          | ✓            |        |            |
-NPO          | ✓            |        |            |
-OBI          | ✓            |        | ✓          |
-ODGI         |              |        |            |
-PATO         | ✓            |        | ✓          |
-PO           | ✓            |        | ✓          |
-PPIO         |              | ✗      |            |
-PR           | ✓            |        |            |
-PROPREO      | ✓            |        |            |
-PSDS         |              | ✗      |            |
-PSI          |              |        |            |
-PTO          | ✓            |        |            |
-PW           | ✓            |        |            |
-RCD          |              | ✗      |            |
-ROLEO        | ✓            |        |            |
-SBO          | ✓            |        |            |
-SEP          | ✓            |        |            |
-SIO          | ✓            |        |            |
-SNOMEDCT     |              | ✗      |            |
-SYN          | ✓            |        |            |
-UNITSONT     | ✓            |        |            |
-UO           | ✓            |        | ✓          |
-XCO          | ✓            |        |            |
-XEO          |              | ✗      |            |
-Total:       |              |        |            |
-**85**       | **68**       | **7**  | **16**     |
+Ontology     | Downloadable | No OWL | Importable | Memory (*) | Issues
+------------ | ------------ | ------ | ---------- | ---------- | ------
+ACGT-MO      | ✓            |        | ✗          |            | Incompatible with HermiT
+ADO          | ✓            |        | ✓          | ☕          |
+ADW          | ✓            |        | ✓          | ☕          |
+AMINO-ACID   | ✓            |        | ✓          | ☕          |
+APO          | ✓            |        | ✓          | ☕          |
+AURA         |              |        |            |            |
+BAO          | ✓            |        | ✓          | ☕          |
+BCO          | ✓            |        | ✓          | ☕          |
+BFO          | ✓            |        | ✓          | ☕          |
+BIOMODELS    |              |        |            |            |
+BioPAX (=BP) | ✓            |        | ✓          | ☕          |
+BIRNLEX      | ✓            |        | ✓          | ☕          |
+BRO          | ✓            |        | ✓          | ☕          |
+BTO          | ✓            |        | ✓          | ☕          |
+CCO          | ✓            |        | ✗          |            | URI is missing
+CCON         | ✓            |        | ✓          | ☕          |
+CCONT        | ✓            |        | ✓          | ☕          |
+CHEBI        | ✓            |        | ✓          | ☕☕☕☕       |
+CHMO         | ✓            |        | ✓          | ☕☕         |
+CL           | ✓            |        | ✓          | ☕          |
+CMO          | ✓            |        | ✓          | ☕☕         |
+CPO          |              |        |            |            |
+CRISP        |              | ✗      |            |            |
+CSEO         | ✓            |        | ✓          | ☕☕☕        |
+CSP          |              |        |            |            |
+CSSO         | ✓            |        | ✓          | ☕          |
+DOID         | ✓            |        | ✓          | ☕☕☕        |
+DRON         | ✓            |        | ✓          | ☕          |
+EDAM         | ✓            |        | ✓          | ☕☕         |
+EFO          | ✓            |        | ✓          | ☕☕☕        |
+EHDA         |              |        |            |            |
+ENVO         | ✓            |        | ✓          | ☕☕         |
+FBCV         | ✓            |        | ✓          | ☕          |
+FIX          | ✓            |        | ✓          | ☕          |
+FMA          | ✓            |        | ✓          | ☕☕☕        |
+FYPO         | ✓            |        | ✓          | ☕☕         |
+GALEN        | ✓            |        | ✗          |            |
+GEXO         | ✓            |        | ✗          |            |
+GO           | ✓            |        | ✓          | ☕☕☕        |
+GO-EXT       |              |        |            |            |
+HL           |              |        |            |            |
+ICF          | ✓            |        | ✓          | ☕☕         |
+IDO          | ✓            |        | ✓          | ☕          |
+IDODEN       | ✓            |        | ✓          | ☕          |
+IEV          | ✓            |        | ✓          | ☕          |
+JERM         | ✓            |        | ✓          | ☕          |
+MA           | ✓            |        | ✓          | ☕          |
+MCCV         | ✓            |        | ✓          | ☕          |
+MDR          |              |        |            |            |
+MEDDRA       |              | ✗      |            |            |
+MESH         | ✓            |        | ✗          |            |
+MI           | ✓            |        | ✓          | ☕          |
+MMO          | ✓            |        | ✓          | ☕          |
+MPATH        | ✓            |        | ✓          | ☕          |
+MS           | ✓            |        | ✓          | ☕☕         |
+MSH          |              |        |            |            |
+NCBITAXON    | ✓            |        | ?          | ☕☕☕☕☕      |
+NCIT         | ✓            |        | ✓          | ☕☕☕        |
+NEMO         | ✓            |        | ✓          | ☕          |
+NEWT         |              |        |            |            |
+NIF          |              |        |            |            |
+NIFSTD       | ✓            |        | ✗          |            | Non-simple property
+NMR          | ✓            |        | ✓          | ☕          |
+NPO          | ✓            |        | ✓          | ☕          |
+OBI          | ✓            |        | ✓          | ☕          |
+ODGI         |              |        |            |            |
+PATO         | ✓            |        | ✓          | ☕          |
+PO           | ✓            |        | ✓          | ☕          |
+PPIO         |              | ✗      |            |            |
+PR           | ✓            |        | ?          | ☕☕☕☕☕      |
+PROPREO      | ✓            |        | ✗          |            | Parser error
+PSDS         |              | ✗      |            |            |
+PSI          |              |        |            |            |
+PTO          | ✓            |        | ✓          | ☕          |
+PW           | ✓            |        | ✓          | ☕          |
+RCD          |              | ✗      |            |            |
+ROLEO        | ✓            |        | ✓          | ☕          |
+SBO          | ✓            |        | ✓          | ☕          |
+SEP          | ✓            |        | ✗          |            | Parser error
+SIO          | ✓            |        | ✓          | ☕          |
+SNOMEDCT     |              | ✗      |            |            |
+SYN          | ✓            |        | ✓          | ☕☕         |
+UNITSONT     | ✓            |        | ✓          | ☕          |
+UO           | ✓            |        | ✓          | ☕          |
+XCO          | ✓            |        | ✓          | ☕          |
+XEO          |              | ✗      |            |            |
+Total:       |              |        |            |            |
+**85**       | **68**       | **7**  | **56**     |            |
 
 [owl2neo4j]: https://github.com/flekschas/owl2neo4j/wiki/Batch-Imports

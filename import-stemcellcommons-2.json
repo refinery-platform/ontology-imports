@@ -1,0 +1,19 @@
+{
+    "ontologies": [
+        {
+            "o": "./obi.owl",
+            "n": "Ontology for Biomedical Investigations",
+            "a": "OBI"
+        },
+        {
+            "o": "./pato.owl",
+            "n": "Phenotypic Quality",
+            "a": "PATO"
+        },
+        {
+            "o": "./uo.owl",
+            "n": "Unit Ontology",
+            "a": "UO"
+        }
+    ]
+}

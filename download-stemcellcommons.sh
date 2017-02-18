@@ -5,6 +5,13 @@
 #
 # Get ontologies used in Stem Cell Commons
 
+if [ -z "$1" ]; then
+  APIKEY="8b5b7825-538d-40e0-9e9e-5ab9274a9aeb"
+  echo "APIKEY not given. Using public key: $APIKEY";
+else
+  APIKEY=$1
+fi
+
 [ -f ./bto.owl ] || curl -L -O http://purl.obolibrary.org/obo/bto.owl
 [ -f ./chebi.owl ] || curl -L -O http://purl.obolibrary.org/obo/chebi.owl
 [ -f ./cl.owl ] || curl -L -O http://purl.obolibrary.org/obo/cl/releases/2015-10-29/cl.owl
