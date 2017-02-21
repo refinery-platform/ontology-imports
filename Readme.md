@@ -48,14 +48,14 @@ UO           | ✓            | ✓          | ☕
 
 *) The number of coffee mugs directly correlates with the import time and amount
 of memory your system needs. As an indicator: ontologies marked as importable
-were imported on a MacBook Air with 8 GB Ram.
+were imported on a MacBook Pro with 16 GB Ram.
 
 **Note:** Importing on the development VM might require even more memory. (And
 might make your drink even more coffee, so please watch your heart rate.)
 
 ### MetaboLights
 
-**Last tested**: February 7, 2017
+**Last tested**: February 20, 2017
 
 **Note**: Ontologies that are not _downloadable_ and are marked (✗) as _no OWL_
 could be downloaded but are not available as OWL files, i.e., they are not
@@ -99,8 +99,8 @@ FBCV         | ✓            |        | ✓          | ☕          |
 FIX          | ✓            |        | ✓          | ☕          |
 FMA          | ✓            |        | ✓          | ☕☕☕        |
 FYPO         | ✓            |        | ✓          | ☕☕         |
-GALEN        | ✓            |        | ✗          |            |
-GEXO         | ✓            |        | ✗          |            |
+GALEN        | ✓            |        | ✗          |            | ??
+GEXO         | ✓            |        | ✗          |            | ??
 GO           | ✓            |        | ✓          | ☕☕☕        |
 GO-EXT       |              |        |            |            |
 HL           |              |        |            |            |
@@ -113,13 +113,13 @@ MA           | ✓            |        | ✓          | ☕          |
 MCCV         | ✓            |        | ✓          | ☕          |
 MDR          |              |        |            |            |
 MEDDRA       |              | ✗      |            |            |
-MESH         | ✓            |        | ✗          |            |
+MESH         | ✓            |        | ✗          |            | ??
 MI           | ✓            |        | ✓          | ☕          |
 MMO          | ✓            |        | ✓          | ☕          |
 MPATH        | ✓            |        | ✓          | ☕          |
 MS           | ✓            |        | ✓          | ☕☕         |
 MSH          |              |        |            |            |
-NCBITAXON    | ✓            |        | ?          | ☕☕☕☕☕      |
+NCBITAXON    | ✓            |        | ?          | ☕☕☕☕☕☕☕☕☕☕ | Java heap space issue
 NCIT         | ✓            |        | ✓          | ☕☕☕        |
 NEMO         | ✓            |        | ✓          | ☕          |
 NEWT         |              |        |            |            |
@@ -132,7 +132,7 @@ ODGI         |              |        |            |            |
 PATO         | ✓            |        | ✓          | ☕          |
 PO           | ✓            |        | ✓          | ☕          |
 PPIO         |              | ✗      |            |            |
-PR           | ✓            |        | ?          | ☕☕☕☕☕      |
+PR           | ✓            |        | ✓          | ☕☕☕☕☕☕☕☕☕☕ |
 PROPREO      | ✓            |        | ✗          |            | Parser error
 PSDS         |              | ✗      |            |            |
 PSI          |              |        |            |            |
@@ -150,6 +150,6 @@ UO           | ✓            |        | ✓          | ☕          |
 XCO          | ✓            |        | ✓          | ☕          |
 XEO          |              | ✗      |            |            |
 Total:       |              |        |            |            |
-**85**       | **68**       | **7**  | **56**     |            |
+**86**       | **66**       | **7**  | **57**     |            | **9**
 
 [owl2neo4j]: https://github.com/flekschas/owl2neo4j/wiki/Batch-Imports

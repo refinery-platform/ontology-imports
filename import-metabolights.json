@@ -236,6 +236,11 @@
             "a": "MS"
         },
         {
+            "o": "./ncbitaxon.owl",
+            "n": "NCBI Taxonoy",
+            "a": "NCBITAXON"
+        },
+        {
             "o": "./ncit.owl",
             "n": "National Cancer Institute Thesaurus",
             "a": "NCIT"
