@@ -99,8 +99,8 @@ FBCV         | ✓            |        | ✓          | ☕          |
 FIX          | ✓            |        | ✓          | ☕          |
 FMA          | ✓            |        | ✓          | ☕☕☕        |
 FYPO         | ✓            |        | ✓          | ☕☕         |
-GALEN        | ✓            |        | ✗          |            | ??
-GEXO         | ✓            |        | ✗          |            | ??
+GALEN        | ✓            |        | ✗          |            | Satisfiability not checkable
+GEXO         | ✓            |        | ✗          |            | URI is missing
 GO           | ✓            |        | ✓          | ☕☕☕        |
 GO-EXT       |              |        |            |            |
 HL           |              |        |            |            |
