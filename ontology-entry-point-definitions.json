@@ -1,4 +1,136 @@
 {
+    "ado": [
+        {
+            "name": "Clinical",
+            "uri": "http://scai.fraunhofer.de/NDDUO#Clinical"
+        },
+        {
+            "name": "Non-clinical",
+            "uri": "http://scai.fraunhofer.de/NDDUO#Non_clinical"
+        },
+        {
+            "name": "Disease cause",
+            "uri": "http://scai.fraunhofer.de/NDDUO#disease_cause"
+        },
+        {
+            "name": "Etiological",
+            "uri": "http://scai.fraunhofer.de/NDDUO#disease_cause"
+        }
+    ],
+    "adw": [
+        {
+            "name": "Taxon",
+            "uri": "http://www.owl-ontologies.com/unnamed.owl#Taxon_account_section"
+        },
+        {
+            "name": "Sex",
+            "uri": "http://www.owl-ontologies.com/unnamed.owl#Sex"
+        }
+    ],
+    "amino-acid": [
+        {
+            "name": "Animo acid",
+            "uri": "http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"
+        },
+        {
+            "name": "Animo acid property",
+            "uri": "http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#AminoAcid"
+        }
+    ],
+    "apo": [
+        {
+            "name": "Experimenrt type",
+            "uri": "http://purl.obolibrary.org/obo/APO_0000018"
+        },
+        {
+            "name": "Mutant type",
+            "uri": "http://purl.obolibrary.org/obo/APO_0000006"
+        },
+        {
+            "name": "Observable",
+            "uri": "http://purl.obolibrary.org/obo/APO_0000017"
+        },
+        {
+            "name": "Qualifier",
+            "uri": "http://purl.obolibrary.org/obo/APO_0000001"
+        }
+    ],
+    "bao": [
+        {
+            "name": "Assay qualities",
+            "uri": "http://www.bioassayontology.org/bao#BAO_0002928"
+        },
+        {
+            "name": "Assay bio components",
+            "uri": "http://www.bioassayontology.org/bao#BAO_0003114"
+        },
+        {
+            "name": "Assay methods",
+            "uri": "http://www.bioassayontology.org/bao#BAO_0002753"
+        }
+    ],
+    "bco": [
+        {
+            "name": "Continuant",
+            "uri": "http://purl.obolibrary.org/obo/BFO_0000002"
+        },
+        {
+            "name": "Material",
+            "uri": "http://purl.obolibrary.org/obo/BFO_0000040"
+        },
+        {
+            "name": "Planned process",
+            "uri": "http://purl.obolibrary.org/obo/OBI_0000011"
+        }
+    ],
+    "bfo": [
+        {
+            "name": "Material",
+            "uri": "http://purl.obolibrary.org/obo/BFO_0000040"
+        },
+        {
+            "name": "Material",
+            "uri": "http://purl.obolibrary.org/obo/BFO_0000015"
+        }
+    ],
+    "biopax": [
+        {
+            "name": "Gene",
+            "uri": "http://www.biopax.org/release/biopax-level3.owl#Gene"
+        },
+        {
+            "name": "Interaction",
+            "uri": "http://www.biopax.org/release/biopax-level3.owl#Interaction"
+        },
+        {
+            "name": "Pathway",
+            "uri": "http://www.biopax.org/release/biopax-level3.owl#Pathway"
+        },
+        {
+            "name": "Molecule",
+            "uri": "http://www.biopax.org/release/biopax-level3.owl#PhysicalEntity"
+        }
+    ],
+    "birnlex": [
+        {
+            "name": "Process",
+            "uri": "http://bioontology.org/projects/ontologies/birnlex#Process"
+        }
+    ],
+    "bro": [
+        {
+            "name": "Area of research",
+            "uri": "http://bioontology.org/ontologies/ResearchArea.owl#Area_of_Research"
+        },
+        {
+            "name": "Information",
+            "uri": "http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Information_Resource"
+        },
+        {
+            "name": "Software",
+            "uri": "http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Software"
+        }
+    ],
     "bto": [
         {
             "name": "adult stem cell",
@@ -59,16 +191,80 @@
             "uri": "http://purl.obolibrary.org/obo/BTO_0001491"
         }
     ],
+    "ccon": [
+        {
+            "name": "Organization Level",
+            "uri": "http://cerrado.linkeddata.es/ecology/ccon#BiologicalOrganizationLevel"
+        },
+        {
+            "name": "Ecological Phenomena",
+            "uri": "http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"
+        },
+        {
+            "name": "Environment",
+            "uri": "http://www.fao.org/aims/aos/cwr.owl#Environment"
+        }
+    ],
+    "ccont": [
+        {
+            "name": "Cell culture",
+            "uri": "http://purl.obolibrary.org/obo/BTO_0000214"
+        },
+        {
+            "name": "Organims part",
+            "uri": "http://www.ebi.ac.uk/efo/EFO_0000635"
+        },
+        {
+            "name": "Process",
+            "uri": "http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"
+        }
+    ],
     "chebi": [
         {
             "name": "chemical compound",
             "uri": "http://purl.obolibrary.org/obo/CHEBI_37577"
         }
     ],
+    "chmo": [],
     "cl": [
         {
             "name": "native cell",
             "uri": "http://purl.obolibrary.org/obo/CL_0000003"
+        }
+    ],
+    "cmo": [
+        {
+            "name": "Clinical measurement",
+            "uri": "http://purl.obolibrary.org/obo/CMO_0000000"
+        }
+    ],
+    "cseo": [],
+    "csso": [
+        {
+            "name": "Clinical signs and symptoms",
+            "uri": "http://purl.jp/bio/11/csso/CSSO_000010"
+        }
+    ],
+    "doid": [
+        {
+            "name": "Disease",
+            "uri": "http://purl.obolibrary.org/obo/DOID_4"
+        }
+    ],
+    "dron": [
+        {
+            "name": "",
+            "uri": ""
+        }
+    ],
+    "edam": [
+        {
+            "name": "Data",
+            "uri": "http://edamontology.org/data_0006"
+        },
+        {
+            "name": "Operation",
+            "uri": "http://edamontology.org/operation_0004"
         }
     ],
     "efo": [
@@ -98,6 +294,44 @@
             "uri": "http://www.ebi.ac.uk/efo/EFO_0000323"
         }
     ],
+    "envo": [
+        {
+            "name": "Environmental feature",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00002297"
+        },
+        {
+            "name": "Environmental material",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_00010483"
+        },
+        {
+            "name": "Environmental system",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_01000254"
+        },
+        {
+            "name": "Environmental process",
+            "uri": "http://purl.obolibrary.org/obo/ENVO_02500000"
+        }
+    ],
+    "fbcv": [
+        {
+            "name": "Fly anatomy",
+            "uri": "http://purl.obolibrary.org/obo/FBbt_00100313"
+        },
+        {
+            "name": "Fly process",
+            "uri": "http://purl.obolibrary.org/obo/GO_0008150"
+        }
+    ],
+    "fix": [
+        {
+            "name": "Physico-chemical method",
+            "uri": "http://purl.obolibrary.org/obo/FIX_0000096"
+        },
+        {
+            "name": "Physico-chemical property",
+            "uri": "http://purl.obolibrary.org/obo/FIX_0000268"
+        }
+    ],
     "fma": [
         {
             "name": "nucleated cell",
@@ -110,6 +344,12 @@
             "uri": "http://purl.org/sig/ont/fma/fma7149"
         }
     ],
+    "fypo": [
+        {
+            "name": "Fission yeast phenotype",
+            "uri": "http://purl.obolibrary.org/obo/FYPO_0000001"
+        }
+    ],
     "go": [
         {
             "name": "biological process",
@@ -120,6 +360,30 @@
         }, {
             "name": "molecular function",
             "uri": "http://purl.obolibrary.org/obo/GO_0003674"
+        }
+    ],
+    "icf": [
+        {
+            "name": "ICF Qualifier",
+            "uri": "http://who.int/icf#ICFQualifier"
+        }
+    ],
+    "ido": [],
+    "idoden": [],
+    "iev": [
+        {
+            "name": "Biological event",
+            "uri": "http://purl.obolibrary.org/obo/IEV_0000003"
+        }
+    ],
+    "jerm": [
+        {
+            "name": "Assay type",
+            "uri": "http://www.mygrid.org.uk/ontology/JERMOntology#Assay_type"
+        },
+        {
+            "name": "Technology type",
+            "uri": "http://www.mygrid.org.uk/ontology/JERMOntology#Technology_type"
         }
     ],
     "ma": [
@@ -137,6 +401,32 @@
             "uri": "http://purl.obolibrary.org/obo/MA_0003002"
         }
     ],
+    "mccv": [
+        {
+            "name": "Microbial category",
+            "uri": "http://purl.jp/bio/01/mccv#MCCV_000039"
+        }
+    ],
+    "mesh": [],
+    "mi": [
+        {
+            "name": "Molecular interaction",
+            "uri": "http://purl.obolibrary.org/obo/MI_0000"
+        }
+    ],
+    "mmo": [
+        {
+            "name": "Measurement method",
+            "uri": "http://purl.obolibrary.org/obo/MMO_0000000"
+        }
+    ],
+    "mpath": [
+        {
+            "name": "Mouse pathology",
+            "uri": "http://purl.obolibrary.org/obo/MPATH_0"
+        }
+    ],
+    "ms": [],
     "ncbitaxon": [
         {
             "name": "vertebrata",
@@ -152,6 +442,19 @@
             "uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14282"
         }
     ],
+    "nemo": [
+        {
+            "name": "ERP topography",
+            "uri": "http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_0000001"
+        }
+    ],
+    "nmr": [
+        {
+            "name": "Object",
+            "uri": "http://www.ifomis.org/bfo/1.0/snap#Object"
+        }
+    ],
+    "npo": [],
     "obi": [
         {
             "name": "assay",
@@ -164,10 +467,96 @@
             "uri": "http://purl.obolibrary.org/obo/PATO_0001241"
         }
     ],
+    "po": [
+        {
+            "name": "Plant anatomical entity",
+            "uri": "http://purl.obolibrary.org/obo/PO_0025131"
+        },
+        {
+            "name": "Plant developmental stage",
+            "uri": "http://purl.obolibrary.org/obo/PO_0009012"
+        }
+    ],
+    "pr": [
+        {
+            "name": "Gene",
+            "uri": "http://purl.obolibrary.org/obo/SO_0000704"
+        }
+    ],
+    "propreo": [
+        {
+            "name": "Hardware",
+            "uri": "http://lsdis.cs.uga.edu/projects/glycomics/propreo#instrument_component"
+        },
+        {
+            "name": "Proreo organism",
+            "uri": "http://lsdis.cs.uga.edu/projects/glycomics/propreo#organism"
+        }
+    ],
+    "pto": [
+        {
+            "name": "Plant phenotype",
+            "uri": "http://purl.obolibrary.org/obo/TO_0000387"
+        }
+    ],
+    "pw": [
+        {
+            "name": "Pathway",
+            "uri": "http://purl.obolibrary.org/obo/PW_0000001"
+        }
+    ],
+    "roleo": [
+        {
+            "name": "Role",
+            "uri": "http://www.ifomis.org/bfo/1.1/snap#Role"
+        }
+    ],
+    "sbo": [
+        {
+            "name": "Systems biology representation",
+            "uri": "http://purl.obolibrary.org/obo/SBO_0000000"
+        }
+    ],
+    "sep": [
+        {
+            "name": "Physical object quality",
+            "uri": "http://purl.obolibrary.org/obo/PATO_0001241"
+        },
+        {
+            "name": "Process quality",
+            "uri": "http://purl.obolibrary.org/obo/PATO_0001236"
+        }
+    ],
+    "sio": [],
+    "syn": [
+        {
+            "name": "Cell",
+            "uri": "http://purl.bioontology.org/ontology/MCCL/CL_0000144"
+        },
+        {
+            "name": "Organ",
+            "uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Organ"
+        },
+        {
+            "name": "Tissue",
+            "uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Tissue"
+        },
+        {
+            "name": "Organims",
+            "uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Organisms"
+        }
+    ],
+    "unitsont": [
+        {
+            "name": "Units",
+            "uri": "http://mimi.case.edu/ontologies/2009/1/UnitsOntology#unit"
+        }
+    ],
     "uo": [
         {
             "name": "unit",
             "uri": "http://purl.obolibrary.org/obo/UO_0000000"
         }
-    ]
+    ],
+    "xco": []
 }
