@@ -55,7 +55,7 @@ might make your drink even more coffee, so please watch your heart rate.)
 
 ### MetaboLights
 
-**Last tested**: February 20, 2017
+**Last tested**: April 28, 2017
 
 **Note**: Ontologies that are not _downloadable_ and are marked (✗) as _no OWL_
 could be downloaded but are not available as OWL files, i.e., they are not
@@ -63,93 +63,50 @@ importable and are therefore ignored.
 
 Ontology     | Downloadable | No OWL | Importable | Memory (*) | Issues
 ------------ | ------------ | ------ | ---------- | ---------- | ------
-ACGT-MO      | ✓            |        | ✗          |            | Incompatible with HermiT
-ADO          | ✓            |        | ✓          | ☕          |
-ADW          | ✓            |        | ✓          | ☕          |
-AMINO-ACID   | ✓            |        | ✓          | ☕          |
-APO          | ✓            |        | ✓          | ☕          |
-AURA         |              |        |            |            |
+AURA         | ?            |        |            |            |
 BAO          | ✓            |        | ✓          | ☕          |
-BCO          | ✓            |        | ✓          | ☕          |
-BFO          | ✓            |        | ✓          | ☕          |
-BIOMODELS    |              |        |            |            |
 BioPAX (=BP) | ✓            |        | ✓          | ☕          |
-BIRNLEX      | ✓            |        | ✓          | ☕          |
-BRO          | ✓            |        | ✓          | ☕          |
 BTO          | ✓            |        | ✓          | ☕          |
-CCO          | ✓            |        | ✗          |            | URI is missing
+CADSRVS      | ?            |        |            |            |
 CCON         | ✓            |        | ✓          | ☕          |
-CCONT        | ✓            |        | ✓          | ☕          |
 CHEBI        | ✓            |        | ✓          | ☕☕☕☕       |
 CHMO         | ✓            |        | ✓          | ☕☕         |
-CL           | ✓            |        | ✓          | ☕          |
-CMO          | ✓            |        | ✓          | ☕☕         |
-CPO          |              |        |            |            |
-CRISP        |              | ✗      |            |            |
+CLO          | ?            |        |            |            |
+CNO          | ?            |        |            |            |
+CO-WHEAT     | ?            |        |            |            |
 CSEO         | ✓            |        | ✓          | ☕☕☕        |
-CSP          |              |        |            |            |
-CSSO         | ✓            |        | ✓          | ☕          |
 DOID         | ✓            |        | ✓          | ☕☕☕        |
 DRON         | ✓            |        | ✓          | ☕          |
 EDAM         | ✓            |        | ✓          | ☕☕         |
 EFO          | ✓            |        | ✓          | ☕☕☕        |
-EHDA         |              |        |            |            |
 ENVO         | ✓            |        | ✓          | ☕☕         |
-FBCV         | ✓            |        | ✓          | ☕          |
 FIX          | ✓            |        | ✓          | ☕          |
-FMA          | ✓            |        | ✓          | ☕☕☕        |
-FYPO         | ✓            |        | ✓          | ☕☕         |
-GALEN        | ✓            |        | ✗          |            | Satisfiability not checkable
-GEXO         | ✓            |        | ✗          |            | URI is missing
 GO           | ✓            |        | ✓          | ☕☕☕        |
-GO-EXT       |              |        |            |            |
-HL           |              |        |            |            |
+HP           | ?            |        |            |            |
 ICF          | ✓            |        | ✓          | ☕☕         |
 IDO          | ✓            |        | ✓          | ☕          |
-IDODEN       | ✓            |        | ✓          | ☕          |
-IEV          | ✓            |        | ✓          | ☕          |
-JERM         | ✓            |        | ✓          | ☕          |
-MA           | ✓            |        | ✓          | ☕          |
-MCCV         | ✓            |        | ✓          | ☕          |
-MDR          |              |        |            |            |
 MEDDRA       |              | ✗      |            |            |
 MESH         | ✓            |        | ✗          |            | ??
 MI           | ✓            |        | ✓          | ☕          |
-MMO          | ✓            |        | ✓          | ☕          |
-MPATH        | ✓            |        | ✓          | ☕          |
 MS           | ✓            |        | ✓          | ☕☕         |
-MSH          |              |        |            |            |
 NCBITAXON    | ✓            |        | ?          | ☕☕☕☕☕☕☕☕☕☕ | Java heap space issue
 NCIT         | ✓            |        | ✓          | ☕☕☕        |
 NEMO         | ✓            |        | ✓          | ☕          |
-NEWT         |              |        |            |            |
-NIF          |              |        |            |            |
 NIFSTD       | ✓            |        | ✗          |            | Non-simple property
 NMR          | ✓            |        | ✓          | ☕          |
-NPO          | ✓            |        | ✓          | ☕          |
 OBI          | ✓            |        | ✓          | ☕          |
-ODGI         |              |        |            |            |
 PATO         | ✓            |        | ✓          | ☕          |
 PO           | ✓            |        | ✓          | ☕          |
-PPIO         |              | ✗      |            |            |
-PR           | ✓            |        | ✓          | ☕☕☕☕☕☕☕☕☕☕ |
-PROPREO      | ✓            |        | ✗          |            | Parser error
-PSDS         |              | ✗      |            |            |
-PSI          |              |        |            |            |
-PTO          | ✓            |        | ✓          | ☕          |
 PW           | ✓            |        | ✓          | ☕          |
-RCD          |              | ✗      |            |            |
 ROLEO        | ✓            |        | ✓          | ☕          |
-SBO          | ✓            |        | ✓          | ☕          |
-SEP          | ✓            |        | ✗          |            | Parser error
 SIO          | ✓            |        | ✓          | ☕          |
 SNOMEDCT     |              | ✗      |            |            |
-SYN          | ✓            |        | ✓          | ☕☕         |
+SOY          | ?            |        |            |            |
+SWEET        | ?            |        |            |            |
 UNITSONT     | ✓            |        | ✓          | ☕          |
 UO           | ✓            |        | ✓          | ☕          |
 XCO          | ✓            |        | ✓          | ☕          |
-XEO          |              | ✗      |            |            |
 Total:       |              |        |            |            |
-**86**       | **66**       | **7**  | **57**     |            | **9**
+**43**       | **33**       | **2**  | **30**     |            | **3**
 
 [owl2neo4j]: https://github.com/flekschas/owl2neo4j/wiki/Batch-Imports
