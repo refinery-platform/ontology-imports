@@ -33,6 +33,8 @@ fi
 [ -f ./cco.owl ] || curl -L -o ./cco.owl http://data.bioontology.org/ontologies/CCO/submissions/9/download?apikey=$APIKEY
 [ -f ./ccon.owl ] || curl -L -o ./ccon.owl http://data.bioontology.org/ontologies/CCON/submissions/8/download?apikey=$APIKEY
 [ -f ./ccont.owl ] || curl -L -o ./ccont.owl http://data.bioontology.org/ontologies/CCONT/submissions/3/download?apikey=$APIKEY
+[ -f ./clo.owl ] || curl -L -o ./clo.owl http://data.bioontology.org/ontologies/CLO/submissions/56/download?apikey=$APIKEY
+[ -f ./cno.owl ] || curl -L -o ./cno.owl http://data.bioontology.org/ontologies/CNO/submissions/8/download?apikey=$APIKEY
 [ -f ./cseo.owl ] || curl -L -o ./cseo.owl http://data.bioontology.org/ontologies/CSEO/submissions/2/download?apikey=$APIKEY
 [ -f ./csso.owl ] || curl -L -o ./csso.owl http://data.bioontology.org/ontologies/CSSO/submissions/6/download?apikey=$APIKEY
 [ -f ./chebi.owl ] || curl -L -O http://purl.obolibrary.org/obo/chebi.owl
@@ -52,6 +54,7 @@ fi
 [ -f ./galen.owl ] || curl -L -o ./galen.owl http://data.bioontology.org/ontologies/GALEN/submissions/1/download?apikey=$APIKEY
 [ -f ./go.owl ] || curl -L -O http://purl.obolibrary.org/obo/go.owl
 [ -f ./gexo.owl ] || curl -L -o ./gexo.owl http://data.bioontology.org/ontologies/GEXO/submissions/2/download?apikey=$APIKEY
+[ -f ./hp.owl ] || curl -L -O http://purl.obolibrary.org/obo/hp.owl
 [ -f ./icf.owl ] || curl -L -o ./icf.owl http://data.bioontology.org/ontologies/ICF/submissions/3/download?apikey=$APIKEY
 [ -f ./ido.owl ] || curl -L -O http://purl.obolibrary.org/obo/ido.owl
 [ -f ./idoden.owl ] || curl -L -o ./idoden.owl http://data.bioontology.org/ontologies/IDODEN/submissions/6/download?apikey=$APIKEY
@@ -82,6 +85,7 @@ fi
 [ -f ./sep.owl ] || curl -L -O http://purl.obolibrary.org/obo/sep.owl
 [ -f ./sio.owl ] || curl -L -O http://semanticscience.org/ontology/sio.owl
 [ -f ./syn.owl ] || curl -L -o ./syn.owl http://data.bioontology.org/ontologies/SYN/submissions/3/download?apikey=$APIKEY
+[ -f ./sweet.owl ] || curl -L -o ./sweet.owl http://data.bioontology.org/ontologies/SWEET/submissions/1/download?apikey=$APIKEY
 [ -f ./unitsont.owl ] || curl -L -o ./unitsont.owl http://data.bioontology.org/ontologies/UNITSONT/submissions/1/download?apikey=$APIKEY
 [ -f ./uo.owl ] || curl -L -O http://purl.obolibrary.org/obo/uo.owl
 [ -f ./xco.owl ] || curl -L -O http://purl.obolibrary.org/obo/xco.owl

@@ -53,7 +53,7 @@
         {
             "o": "./biopax.owl",
             "n": "Biological Pathways Exchange",
-            "a": "BIOPAX"
+            "a": "BP"
         },
         {
             "o": "./birnlex.owl",
@@ -101,9 +101,19 @@
             "a": "CL"
         },
         {
+            "o": "./clo.owl",
+            "n": "Cell Line Ontology",
+            "a": "CLO"
+        },
+        {
             "o": "./cmo.owl",
             "n": "Clinical Measurement Ontology",
             "a": "CMO"
+        },
+        {
+            "o": "./cno.owl",
+            "n": "Computational Neuroscience Ontology",
+            "a": "CNO"
         },
         {
             "o": "./cseo.owl",
@@ -181,6 +191,11 @@
             "a": "GO"
         },
         {
+            "o": "./hpo.owl",
+            "n": "Human Phenotype Ontology",
+            "a": "HP"
+        },
+        {
             "o": "./icf.owl",
             "n": "FlyBase Controlled Vocabulary",
             "a": "ICF"
@@ -214,6 +229,11 @@
             "o": "./mccv.owl",
             "n": "Microbial Culture Collection Vocabulary",
             "a": "MCCV"
+        },
+        {
+            "o": "./mesh.owl",
+            "n": "Medical Subject Headings",
+            "a": "MESH"
         },
         {
             "o": "./mi.owl",
@@ -324,6 +344,11 @@
             "o": "./syn.owl",
             "n": "Sage Bionetworks Synapse Ontology",
             "a": "SYN"
+        },
+        {
+            "o": "./sweet.owl",
+            "n": "Semantic Web for Earth and Environment Technology Ontology",
+            "a": "SWEET"
         },
         {
             "o": "./unitsont.owl",
