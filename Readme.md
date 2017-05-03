@@ -57,23 +57,21 @@ might make your drink even more coffee, so please watch your heart rate.)
 
 **Last tested**: April 28, 2017
 
-**Note**: Ontologies that are not _downloadable_ and are marked (✗) as _no OWL_
-could be downloaded but are not available as OWL files, i.e., they are not
-importable and are therefore ignored.
+**Note**: Ontologies that are not available in _OWL_ ignored.
 
 Ontology     | Downloadable | No OWL | Importable | Memory (*) | Issues
 ------------ | ------------ | ------ | ---------- | ---------- | ------
-AURA         | ?            |        |            |            |
+AURA         | ✓            |        |            |            |
 BAO          | ✓            |        | ✓          | ☕          |
-BioPAX (=BP) | ✓            |        | ✓          | ☕          |
+BP           | ✓            |        | ✓          | ☕          |
 BTO          | ✓            |        | ✓          | ☕          |
-CADSRVS      | ?            |        |            |            |
+CADSRVS      |              | ✗      |            |            |
 CCON         | ✓            |        | ✓          | ☕          |
 CHEBI        | ✓            |        | ✓          | ☕☕☕☕       |
 CHMO         | ✓            |        | ✓          | ☕☕         |
-CLO          | ?            |        |            |            |
-CNO          | ?            |        |            |            |
-CO-WHEAT     | ?            |        |            |            |
+CLO          | ✓            |        |            |            |
+CNO          | ✓            |        | ✗          |            | Could not load http://www.obofoundry.org/ro/ro.owl
+CO-WHEAT     |              | ✗      |            |            |
 CSEO         | ✓            |        | ✓          | ☕☕☕        |
 DOID         | ✓            |        | ✓          | ☕☕☕        |
 DRON         | ✓            |        | ✓          | ☕          |
@@ -82,11 +80,11 @@ EFO          | ✓            |        | ✓          | ☕☕☕        |
 ENVO         | ✓            |        | ✓          | ☕☕         |
 FIX          | ✓            |        | ✓          | ☕          |
 GO           | ✓            |        | ✓          | ☕☕☕        |
-HP           | ?            |        |            |            |
+HP           | ✓            |        | ✓          | ☕☕☕☕       |
 ICF          | ✓            |        | ✓          | ☕☕         |
 IDO          | ✓            |        | ✓          | ☕          |
 MEDDRA       |              | ✗      |            |            |
-MESH         | ✓            |        | ✗          |            | ??
+MESH         | ✓            |        | ✓          | ☕☕☕☕       |
 MI           | ✓            |        | ✓          | ☕          |
 MS           | ✓            |        | ✓          | ☕☕         |
 NCBITAXON    | ✓            |        | ?          | ☕☕☕☕☕☕☕☕☕☕ | Java heap space issue
@@ -101,12 +99,12 @@ PW           | ✓            |        | ✓          | ☕          |
 ROLEO        | ✓            |        | ✓          | ☕          |
 SIO          | ✓            |        | ✓          | ☕          |
 SNOMEDCT     |              | ✗      |            |            |
-SOY          | ?            |        |            |            |
-SWEET        | ?            |        |            |            |
+SOY          |              | ✗      |            |            |
+SWEET        | ✓            |        | ✓          |            |
 UNITSONT     | ✓            |        | ✓          | ☕          |
 UO           | ✓            |        | ✓          | ☕          |
 XCO          | ✓            |        | ✓          | ☕          |
 Total:       |              |        |            |            |
-**43**       | **33**       | **2**  | **30**     |            | **3**
+**43**       | **38**       | **5**  | **34**     |            | **3**
 
 [owl2neo4j]: https://github.com/flekschas/owl2neo4j/wiki/Batch-Imports
